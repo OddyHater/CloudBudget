@@ -1,0 +1,234 @@
+.button {
+}
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+.link {
+  text-decoration: none;
+}
+.title {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43px;
+}
+.content {
+  width: 1110px;
+  margin: 0 auto;
+}
+.page {
+  width: 1440px;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+}
+
+/*HEADER*/
+.header {
+  background-image: linear-gradient(90deg, #D52047CC 0%, #EE3D1BCC 100%), url(../img/header_bg.jpg);
+  min-height: 782px;
+}
+.header__content {
+  padding-top: 17px;
+  text-align: center;
+}
+.header__menu {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+  text-transform: uppercase;
+  margin-bottom: 140px;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.header__logo-image {
+  margin-right: 10px;
+}
+.header__logo-text {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #fff;
+}
+.header__menu-list {
+  display: flex;
+  gap: 15px;
+}
+
+.header__menu-item {
+  padding: 0;
+  margin: 0;
+}
+.header__menu-link {
+  color:#fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+}
+.header__log {
+  margin-left: auto;
+}
+.header_lang {
+
+}
+.header_login-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  font-size: 14px;
+  line-height: 17px;
+  height: 40px;
+  width: 100px;
+  border: #fff 1px solid;
+  border-radius: 6px;
+}
+.header__title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 86px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 39px;
+}
+.header__text {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #fff;
+  width: 480px;
+  min-height: 124px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.header__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #ED4C5C;
+  text-transform: uppercase;
+  width: 160px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+/*HEADER*/
+
+/*MANAGEMENT*/
+.management {
+  display: flex;
+  padding: 94px 0px;
+}
+.management__text {
+  width: 50%;
+}
+.management__title {
+  min-height: 107px;
+  margin-bottom: 24px;
+}
+.management__paragraph {
+  margin: 0;
+  padding: 0;
+  width: 445px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.management__learn-more {
+  color: #ED4C5C;
+  font-size: 14px;
+  line-height: 20px;
+}
+.link {
+}
+.management__video {
+  background-color: #ED4C5C;
+  width: 50%;
+}
+/*MANAGEMENT*/
+
+/*FEATURES*/
+.features {
+  box-sizing:border-box;
+  padding-top: 63px;
+  background-color: #FAFAFA;
+  min-height: 660px;
+}
+.features__title {
+  min-height: 55px;
+  text-align: center;
+}
+.features__cards {
+  display: flex;
+  gap: 30px;
+}
+.features__card {
+  position: relative;
+  width: 350px;
+  min-height: 250px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  border-radius: 8px;
+}
+.features__card_image_cash {
+ background-image: url(../img/features.jpg);
+}
+.features__card_image_phone {
+  background-image: url(../img/features1.jpg);
+}
+.features__card_image_hall {
+  background-image: url(../img/features2.jpg);
+}
+.card__text {
+  position: absolute;
+  box-sizing: border-box;
+  top: 157px;
+  left: 23px;
+  width: 293px;
+  min-height: 198px;
+  margin: 0 auto;
+  padding-top: 33px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 5px 30px 0px #0000001A;
+}
+.card__title {
+  width: 229px;
+  min-height: 40px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #101010;
+  margin-bottom: 20px;
+}
+.card__paragraph {
+  width: 229px;
+  min-height: 57px;
+  margin: 0 auto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #101010;
+  margin-bottom: 5px;
+}
+.card__more {
+  margin: 0;
+  min-height: 18px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #ED4C5C;
+}
+/*FEATURES*/
